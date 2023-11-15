@@ -1,6 +1,7 @@
 import './App.css';
 import BlogPage from './components/BlogPage';
 import Header from './components/Header';
+import Copyright from './components/Copyright';
 import HomePage from './components/HomePage';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
@@ -9,6 +10,7 @@ function App() {
     <Router>
     <div className="App">
       <Header />
+      <Copyright />
 
       <Routes>
         <Route path='/' element= {<HomePage />} />
@@ -18,5 +20,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

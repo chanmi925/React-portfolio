@@ -1,9 +1,5 @@
 import React from 'react'
 import { Button } from 'react-bootstrap';
-import reactImage from "../Images/react.png";
-import jsImage from "../Images/js.png";
-import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/sibainu.jpg";
 
 function HomePege() {
   return (
@@ -16,7 +12,7 @@ function HomePege() {
     
 
     <p>
-      Chanmiのポートフォリオサイトです。
+      Miho.Hのポートフォリオサイトです。
       成果物や身につけたスキルをまとめました。
     </p>
 
@@ -29,7 +25,7 @@ function HomePege() {
           </h3>
         </div>
         <div class="row text-center">
-          <div class="col-md-4">
+          <div class="col-md-6">
             <span class="fa-stack fa-4x">
               <i class="fa-solid fa-laptop-file"></i>
             </span>
@@ -38,9 +34,9 @@ function HomePege() {
               tutorialを見ながらこのポートフォリオサイトを作成しました。
               もっと手を加えて良いwebサイトにしたいです。
             </p>
-            <p>使用言語など:HTML/CSS,JavaScript,React,Git</p>
+            <p>使用言語など:HTML,CSS,JavaScript,React,Git</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <span class="fa-stack fa-4x">
             <a href='https://tanslation-app-python.onrender.com/tr/'>
               <i class="fa-solid fa-language"></i>
@@ -50,7 +46,7 @@ function HomePege() {
             <p class="text-muted">
             tutorialを見ながらDjango,DeepLAPIを使用し翻訳アプリケーションを作りました。
             </p>
-            <p>使用言語など:Django,HTML/CSS,Bootstrap,sqlite,Docker,Dockercompose,render</p>
+            <p>使用言語など:Django,HTML,CSS,Bootstrap,sqlite,Docker,Dockercompose,render</p>
           </div>
         </div>
       </div>

@@ -4,6 +4,10 @@
   --lightgray-color: #e6e6e6;
 }
 
+body {
+  word-break: break-all;
+}
+
 .App {
   font-size: 18px;
   height: 100vh;
@@ -89,4 +93,17 @@ img {
 
 #skill button {
   margin-bottom: 100px;
+}
+
+/* Copyright.css */
+
+.copyright {
+  background-color: #333; /* フッターの背景色を設定 */
+  color: #fff; /* テキストの色を設定 */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
 }

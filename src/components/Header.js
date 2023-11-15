@@ -15,7 +15,7 @@ const Header = () => {
         <Link to='/'>ホーム</Link>
         </li>
         <li>
-        <Link to='/blog'>ブログ</Link>
+        {/* <Link to='/blog'>ブログ</Link> */}
         </li>
         <li>
           <a href='https://github.com/chanmi925'>Github</a>
